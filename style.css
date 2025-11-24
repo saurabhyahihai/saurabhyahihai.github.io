@@ -21,6 +21,8 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -29,6 +31,7 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
+    width: 100%;
 }
 
 a {
@@ -73,7 +76,8 @@ h4 {
 #navbar {
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     padding: 1.5rem 5%;
     display: flex;
     justify-content: space-between;
